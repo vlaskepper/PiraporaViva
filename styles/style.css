@@ -1,0 +1,53 @@
+.cabecalho {
+    display: flex;
+    justify-content:space-between;
+    margin: 1em;
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-navegacao__itens {
+    padding: 1em;
+    margin: 1em;
+}
+
+.secao-slogan {
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.slogan {
+    padding: 1em;
+}
+
+.slogan-titulo {
+    text-align: center;
+    margin: 1em;
+}
+
+.secao-apresentacao {
+    margin: 1em;
+    padding: 1em;
+}
+
+.apresentacao-titulo {
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+}
+
+.apresentacao-texto {
+    justify-content: center;
+    margin: 1em;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin: 1em;
+}
