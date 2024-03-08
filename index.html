@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PiraporaViva</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/styles/swiper.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="/js/swiper.js" defer></script>
+
+
+
 </head>
 <body>
     <header class="cabecalho">
         <div class="logo">
-            <h1 class="logo-principal">PiraporaViva</h1>
+            <h1 class="logo-principal"><img src="/img/icon.jpeg" alt="Pirapora Viva"></h1>
         </div>
         <div class="navegacao">
             <ul class="menu-navegacao">
@@ -20,10 +28,31 @@
         </div>
     </header>
     <main class="principal">
-        <div class="slogan">
-            <h2 class="slogan-titulo">Explore os encantos de Pirapora e deixe-se envolver pela magia desta cidade única.</h2>
-            <p class="slogan-texto">Descubra a fascinante cidade de Pirapora, aninhada no coração do norte de Minas Gerais, vizinha da pitoresca Buritizeiro. Conhecida como uma das mais importantes localidades às margens do majestoso Rio São Francisco, Pirapora convida você a explorar seus encantos naturais e históricos. Deixe-se envolver pela magia desta cidade única, onde a cultura, a tradição e a beleza se fundem em uma experiência memorável à beira do rio.</p>
+        <section class="secao-slogan">
+            <div class="slogan">
+                <h2 class="slogan-titulo">Explore os encantos de Pirapora e deixe-se envolver pela magia desta cidade única.</h2>
+                <p class="slogan-texto">Descubra a fascinante cidade de Pirapora, aninhada no coração do norte de Minas Gerais, vizinha da pitoresca Buritizeiro. Conhecida como uma das mais importantes localidades às margens do majestoso Rio São Francisco, Pirapora convida você a explorar seus encantos naturais e históricos. Deixe-se envolver pela magia desta cidade única, onde a cultura, a tradição e a beleza se fundem em uma experiência memorável à beira do rio.</p>
+            </div>
+        </section>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
+        
+
     </main>
 </body>
 </html>
